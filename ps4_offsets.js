@@ -162,6 +162,85 @@ export const PS4 = {
         k_jmp_rsi:                         0x704d5,
 
     },
+     "11.52": {
+        fw_status: "state=proven step4q=90/0 reboot=0 webkit=step7-20/20-x2 "
+            + "kernel_rvas=untested-vs-dump kstr_residue=0x318",
+
+        wk_expm1_builtin:                  0x2587bd0,
+        wk_JSFunction_m_function:          0x28,
+
+        wk_POP_RDI_RET:                    0x2445241,
+        wk_POP_RSI_RET:                    0x2503c9e,
+        wk_POP_RDX_RET:                    0x24cfa22,
+        wk_POP_RCX_RET:                    0x24c7ebf,
+        wk_POP_RAX_RET:                    0x2554e3f,
+        wk_POP_R8_RET:                     0x23bb4bd,
+        wk_POP_R9_RET:                     0x1c2cda1,
+        wk_LEAVE_RET:                      0x23c3790,
+        wk_MOV_QWORD_PTR_RDI_RAX_RET:      0x2445d1a,
+
+        wk_MOV_RDI_RSI_30_CALL:            0x29609f8,
+        wk_POP_RAX_MOV_RAX_JMP_18:         0x1c8bbc3,
+        wk_PUSH_RBP_MOV_RBP_RSP_10:        0x1645270,
+        wk_MOV_RDI_RAX_8_CALL_20:          0x1e3f795,
+        wk_MOV_RDX_RAX_18_CALL_10:         0x1dea16a,
+        wk_PUSH_RDX_POP_RSP_RET:           0x2abe00a,
+
+        pivot_view_sp:                     0x38,
+        wk_ArrayBuffer_m_impl:             0x10,
+        wk_ArrayBuffer_m_contents_m_data:  0x10,
+
+        wk___imp___error:                  0x3cbcc98,
+        k__error:                          0x183c0,
+
+        wk___imp_pthread_create:           0x3cbdbb8,
+        k_pthread_create:                  0xa1d0,
+
+        k_stubs: {
+            3: 0x2c170,
+            4: 0x2b8d0,
+            5: 0x2b970,
+            6: 0x2d620,
+            20: 0x2cb70,
+            23: 0x2b6f0,
+            24: 0x2d5e0,
+            25: 0x2b4d0,
+            30: 0x2c9d0,
+            54: 0x2cff0,
+            92: 0x2b650,
+            97: 0x2d050,
+            98: 0x2b5f0,
+            104: 0x2d380,
+            105: 0x2b490,
+            106: 0x2d480,
+            118: 0x2b2f0,
+            135: 0x2c280,
+            240: 0x2d4c0,
+            331: 0x2c6b0,
+            432: 0x2b510,
+            466: 0x2cc70,
+            487: 0x2ba80,
+            488: 0x2bd10,
+            538: 0x2b430,
+            539: 0x2b4f0,
+            544: 0x2beb0,
+            545: 0x2ca30,
+            632: 0x2d090,
+            633: 0x2d840,
+            662: 0x2ccb0,
+            663: 0x2c3e0,
+            664: 0x2d740,
+            666: 0x2d540,
+            669: 0x2bdf0,
+        },
+        k_scan_stage1:                     0x40000,
+        k_scan_stage2:                     0x60000,
+
+        k_evf_cv:                          0x784318,
+        k_sysent_661:                      0x110a760,
+        k_jmp_rsi:                         0x704d5,
+
+    },
     "12.00": {
         fw_status: "state=UNTESTED-on-hardware webkit=offline-from-sprx "
             + "anchor=findcaller-validated-on-11.50 "
