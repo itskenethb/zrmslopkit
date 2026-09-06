@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# build #01
+# build #02
 
 index.html
 run_lapse.html
@@ -22,3 +22,8 @@ patches/1300.bin
 
 NETWORK:
 *
+
+FALLBACK:
+index.html index.html
+run_lapse.html run_lapse.html
+run_poops.html run_poops.html
