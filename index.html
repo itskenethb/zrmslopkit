@@ -51,10 +51,11 @@
 
     var bug = null, why = "";
 
-    if (fwnum !== null && fwnum <= 1102 && fwnum !== 1100) {
-        window.location.replace("https://itskenethb.github.io/cssfontface/");
+  if (fwnum !== null && fwnum <= 1102 && fwnum !== 1100) {
+    window.location.href = "https://itskenethb.github.io/cssfontface/";
     return;
 }
+
     var forced = params.get("bug");
     if (forced === "lapse" || forced === "poops") {
         bug = forced; why = "forced via ?bug=" + forced;
